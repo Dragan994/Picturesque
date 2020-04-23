@@ -1,0 +1,29 @@
+html,
+body,
+p{
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.hideMe{
+    display: none;
+}
+section{
+    height: 90vh;
+    background-color: brown;
+}
+section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: cadetblue;
+}
+#resetBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    height: 10vh;
+}

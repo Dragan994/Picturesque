@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, scale=1.0">
+        <title>Igrica</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="resetBtn" onclick="resetAll()">RESTART</div>
+        <section>
+            <div id="wordDiv">
+                <div id="birajPojam" onclick="pokaziPojam()">IZABERI POJAM</div>
+                <p id="pojamOut" class="hideMe">TVOJ POJAM</p>
+            </div>
+            <div id="timeDiv">
+                <div id="pocniVreme" onclick="dajVreme()">POCNI VREME</div>
+                <p id="vreme" class="hideMe" onclick="resetAll()">0:36</p>
+            </div>
+        </section>
+        <audio id="alarm" src="alarm.mp3"></audio>
+    <script src="app.js"></script>
+    </body>
+</html>
