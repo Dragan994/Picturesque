@@ -4,7 +4,7 @@
             var pocniVreme = document.getElementById('pocniVreme');
             var vreme = document.getElementById('vreme');
             var timeDiv = document.getElementById('timeDiv');
-            var pojmovi = ['NORMALNO', 'ZATVORENE OČI', 'DVA POJMA', 'BEZ DIZANJA', 'LEVA RUKA', 'NORMALNO']
+            var pojmovi = ['NORMALNO', 'ZATVORENE OČI', 'DVA POJMA', 'BEZ DIZANJA<br>RUKE', 'LEVA RUKA', 'NORMALNO']
             var minut = 60;
             var off = 1;
             var timer;

@@ -10,6 +10,7 @@ p{
     font-family: 'PaytoneOne';
     font-size: 1.5rem;
     color: #fff;
+    text-align: center;
 }
 .hideMe{
     display: none;
@@ -25,16 +26,18 @@ section>div{
     align-items: center;
     height: 50%;
     background-color: #2092EC;
-    border: 2px solid blueviolet;
+    border: 12px solid rgb(255, 255, 255);
+    border-top: none;
 }
 #resetBtn{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50%;
     height: 10vh;
     background-color: #2092EC;
-
+    border-bottom: 10px solid white;
 }
 #vreme{
     font-size: 25vh;
