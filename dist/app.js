@@ -3,6 +3,7 @@
             var birajPojam = document.getElementById('birajPojam');
             var pocniVreme = document.getElementById('pocniVreme');
             var vreme = document.getElementById('vreme');
+            var timeDiv = document.getElementById('timeDiv');
             var pojmovi = ['NORMALNO', 'ZATVORENE OČI', 'DVA POJMA', 'BEZ DIZANJA', 'LEVA RUKA', 'NORMALNO']
             var minut = 60;
             var off = 1;
@@ -23,6 +24,7 @@
                 vreme.innerHTML = minut
                 pocniVreme.classList.add('hideMe');
                 vreme.classList.remove('hideMe');
+                timeDiv.classList.add('animated');
                 } else {
                     alarm.play();
                     alert("Izaberi pojam!")
@@ -33,7 +35,8 @@
                 birajPojam.classList.remove('hideMe');
                 pojamOut.classList.add('hideMe');
                 vreme.classList.add('hideMe');
-                pocniVreme.classList.remove('hideMe')
+                pocniVreme.classList.remove('hideMe');
+                timeDiv.classList.remove('animated');
                 clearInterval(timer);
                 alarm.play();
             }
